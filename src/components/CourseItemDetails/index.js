@@ -83,7 +83,7 @@ class CourseItemDetails extends Component {
       <p className="failure-description">
         We cannot seem to find the page you are looking for
       </p>
-      <button className="retry-btn" type="button" onClick={this.getData}>
+      <button className="retry-btn" type="button" onClick={this.getItem}>
         Retry
       </button>
     </div>
@@ -96,7 +96,7 @@ class CourseItemDetails extends Component {
         return this.loadingView()
       case apiStatusConstant.success:
         return this.successView()
-      case apiStatusConstant.fail:
+      case apiStatusConstant.failure:
         return this.failureView()
       default:
         return null

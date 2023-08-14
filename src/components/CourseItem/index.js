@@ -40,7 +40,7 @@ class CourseItem extends Component {
         apiStatus: apiStatusConstant.success,
       })
     } else {
-      this.setState({apiStatus: apiStatusConstant.fail})
+      this.setState({apiStatus: apiStatusConstant.failure})
     }
   }
 
