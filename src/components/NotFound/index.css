@@ -1,0 +1,36 @@
+.logo-container {
+  width: 100vw;
+  background-color: #f1f5f9;
+}
+
+.logo-image {
+  width: 150px;
+  margin-left: 90px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.not-found-image {
+  width: 350px;
+  height: 350px;
+}
+
+.not-found-heading {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.not-found-description {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #475569;
+}
